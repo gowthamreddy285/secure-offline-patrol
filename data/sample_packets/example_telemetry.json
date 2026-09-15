@@ -1,0 +1,55 @@
+[
+    {
+        "node_id": "NODE01",
+        "sequence": 1,
+        "timestamp": 1726412345,
+        "sensor": "INMP441",
+        "value": 1234,
+        "rssi": -67,
+        "snr": 8.5,
+        "comment": "Normal ambient sound level"
+    },
+    {
+        "node_id": "NODE01",
+        "sequence": 2,
+        "timestamp": 1726412350,
+        "sensor": "INMP441",
+        "value": 2891,
+        "rssi": -72,
+        "snr": 7.2,
+        "comment": "Elevated noise — possible animal"
+    },
+    {
+        "node_id": "NODE01",
+        "sequence": 3,
+        "timestamp": 1726412355,
+        "sensor": "INMP441",
+        "value": 892,
+        "rssi": -68,
+        "snr": 8.1,
+        "comment": "Quiet — low ambient noise"
+    },
+    {
+        "node_id": "NODE01",
+        "sequence": 4,
+        "timestamp": 1726412360,
+        "sensor": "RFID",
+        "value": 0,
+        "rfid_uid": "A1B2C3D4",
+        "rssi": -65,
+        "snr": 9.0,
+        "comment": "Example RFID checkpoint scan (Phase 12)"
+    },
+    {
+        "node_id": "NODE01",
+        "sequence": 5,
+        "timestamp": 1726412365,
+        "sensor": "AUDIO_ML",
+        "value": 0,
+        "event": "CHAINSAW",
+        "confidence": 0.91,
+        "rssi": -70,
+        "snr": 7.8,
+        "comment": "Example TinyML alert (Phase 15)"
+    }
+]
